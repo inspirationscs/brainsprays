@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="" />
+<meta name="robots" content="index, follow">
+<meta content="" name="keywords">
+<meta name="description" content="">
+<title>Brainsprays </title>
+<link rel="icon" href="images/fav_hand.png" type="image/gif" sizes="16x16">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1">
+<link href="font/font_awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="font/font_awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">	
+	
+    <!--Main site css-->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/media_query.css" rel="stylesheet" type="text/css" />
+<script src="jsLibrary/jquery.min.js"></script>	
+	
+</head>
+
+<body>
+	
+<div class="from_header">
+		<div class="wrapper">
+			<div class="header">
+				<a href="#" class="logo">
+					<img src="images/brainsprays_logo.png" alt="brainsprays">
+				</a>
+			</div>
+			
+			<div class="from">
+				<div class="from_contner">
+					<div class="tab_sac">
+						<ul>
+							<li>
+								<a href="register.html">Register</a>
+							</li>
+							
+							<li class="active">
+								<a href="index.html">Sign in</a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="from_sec">
+						<from>
+							<ul>
+								<li>
+									<input type="text" placeholder="Username or email..." required="">
+								</li>
+								
+								<li>
+									<input type="password" placeholder="Passwoard..." required="">
+								</li>
+								
+								<li>
+									<input type="submit" value="Sign in">
+									
+									<a href="#">Forgot password ?</a>
+								</li>
+							</ul>
+						
+						</from>
+					
+					
+					</div>
+					
+					<div class="sing_in">
+						<ul>
+							<li>
+								<a href="#">Sign in with your company or school</a>
+							</li>
+							
+							<li>
+								<a href="register.html">First time here? Create an account.</a>
+							</li>
+						</ul>
+					
+					</div>
+					
+					<div class="socal">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="images/apple_icon.png" alt="">
+									Apple
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/facebook_icon.png" alt="">
+									Facebook
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<img src="images/google_icon.png" alt="">
+									Google
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/ms_icon.png" alt="">
+									Microsoft
+								</a>
+							</li>
+						</ul>
+					
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+
+	
+</div>	
+	
+<div class="footer">
+	<p>Copyright © 2021  BrainSprays, Inc. All rights reserved</p>	
+</div>		
+
+	 
+
+	
+	
+	
+<div id="stop" class="scrollTop"></div>
+	
+<script>
+		$(function() {
+			var header = $(".menuBar");
+
+			$(window).scroll(function() {    
+				var scroll = $(window).scrollTop();
+				if (scroll >= 50) {
+					header.addClass("scrolled");
+				} else {
+					header.removeClass("scrolled");
+				}
+			});
+
+		});
+</script>	
+	
+<script src="jsLibrary/top_head.js"></script> 	
+</body>
+</html>
